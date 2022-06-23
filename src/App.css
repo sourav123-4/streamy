@@ -7,4 +7,53 @@
   justify-content: space-around;
   border: 1px solid rgb(7, 26, 6);
   padding:2%;
+  margin-bottom: 10px;
+}
+.selection{
+  margin-top: 10px;
+  width: 100%;
+  text-align: center;
+  padding:1.1%;
+  border:.5px solid hsl(0, 0%, 80%);
+}
+.selection-option{
+  background-color: antiquewhite;
+  height: 200px;
+}
+.select{
+  border: 1px solid red;
+  display: flex;
+  align-items: center;
+  padding: 0px 8px;
+}
+.values{
+  display: flex;
+  flex-direction: row;
+  align-items:baseline;
+  background-color:rgba(163, 156, 156, 0.25);
+  padding: .5em 0em 0em .3em;
+  margin-right: .3em;
+  border-radius: 5px;
+}
+.input-tag{
+  width: 100%;
+  text-align: center;
+  padding: 1.1%;
+}
+.ico:hover{
+  color: red;
+}
+.ico{
+  padding-left: 5px;
+}
+.options-div{
+  background-color: aliceblue;
+  border: .5px solid blue;
+}
+.options-div>p{
+  margin: auto;
+  padding: 7px;
+}
+.options-div>p:hover{
+  background-color: rgb(194, 212, 214);
 }
