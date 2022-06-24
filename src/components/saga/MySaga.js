@@ -1,7 +1,7 @@
 import {  receiveFetchData } from "../redux/Action";
 import {takeLatest, call, put } from 'redux-saga/effects';
 
-import { handleClick } from "../api/api";
+import { handleClick } from "../api/Api";
 function* fetchData(action){
     try{
         const data = yield call(handleClick,action.payload);

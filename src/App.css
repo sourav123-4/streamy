@@ -26,14 +26,23 @@
   align-items: center;
   padding: 0px 8px;
 }
+.val{
+  padding: 0.2em;
+  font-size: smaller;
+}
+.svg-icon:hover{
+  background-color: rgb(230, 187, 187);
+  color:red
+}
 .values{
   display: flex;
   flex-direction: row;
+  background-size: cover;
   align-items:baseline;
   background-color:rgba(163, 156, 156, 0.25);
-  padding: .5em 0em 0em .3em;
+  /* padding: .5em; */
   margin-right: .3em;
-  border-radius: 5px;
+  border-radius: 3px;
 }
 .input-tag{
   width: 100%;
